@@ -1,0 +1,22 @@
+
+body {
+  background-color: #f1f1f1;
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.photo {
+  max-width: 400px;
+  border-radius: 50% 50%
+}
+
+div {
+  background: white;                          /* White background */
+  padding: 30px;                              /* Internal space */
+  border-radius: 4px;                         /* Small radius */
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid rgba(0, 0, 0, 0.1);       /* OR subtle border */
+}
+
+
+

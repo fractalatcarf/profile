@@ -1,0 +1,81 @@
+body {
+  background-color: #f1f1f1;
+  margin: 0;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline > li > a > i {
+  padding: 0px 20px;
+  display: block;
+  font-size: 40px;
+  color: #EFCEFA;
+}
+
+.list-inline > li > a  {
+  color: #EFCEFA;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+ul
+{
+  list-style-type: none;
+}
+
+.container {
+  width: 650px;
+  margin: 0 auto;
+}
+
+.photo {
+  max-width: 300px;
+  border-radius: 50%;
+  -webkit-filter: grayscale(70%);
+  filter: grayscale(70%);
+}
+
+.affiche {
+  max-width: 250px;
+  border-radius: 25px;
+}
+
+h1, h2, h3 {
+  color: #2D2A32;
+}
+
+a {
+  color: #2B2D42;
+  text-decoration: none;
+}
+
+a:hover {
+color: #EB8258;
+}
+
+.card {
+  background: white;                          /* White background */
+  padding: 30px;                              /* Internal space */
+  border-radius: 4px;                         /* Small radius */
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid rgba(0, 0, 0, 0.1);       /* OR subtle border */
+  margin: 30px;
+  text-align: center;
+}
+
+.film-title {
+  background-color: #966B9D;
+  color: white;
+  text-align: center;
+}
+
+.film-text{
+  font-size: 9px;
+}
+/* Here goes your CSS */
